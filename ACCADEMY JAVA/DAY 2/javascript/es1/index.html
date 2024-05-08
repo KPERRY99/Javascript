@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Can you vote?</h1>
+
+    <button onclick="age()">Try it</button>
+
+    <p id="demo"></p>
+
+    <script>
+
+        let eta;
+        function age(){
+            let age = prompt("Please enter your age", "");
+
+            let eta = age.valueOf();
+            
+            document.getElementById("demo").innerHTML = age
+
+            if(age>=18){
+                document.getElementById("demo").innerHTML =
+                "Hello Puoi votare";
+            }
+            else{
+                document.getElementById("demo").innerHTML =
+                "Hello non puoi votare!";
+            }
+        }
+    </script>
+    
+</body>
+</html>

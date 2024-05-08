@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 5px solid black;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 50px;
+}
+
+.container{
+    border: 5px solid green;
+    display: flex;
+    height: 300px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: row;
+}
+
+.section2{
+    flex-direction: row-reverse;
+}
+
+.card{
+    border: 2px solid red;
+    height: 400px;
+    width: 20px;
+    position: relative;
+}
+   
+
+.dot{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}

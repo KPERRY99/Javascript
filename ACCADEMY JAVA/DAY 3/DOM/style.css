@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    border: 2px solid black;
+    margin: 50px;
+    
+}
+
+.tasto{
+    display: flex;
+    margin-top: 100px;
+    border: 2px solid red;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.rosso, .giallo, .verde{
+    border: 2px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.rosso{
+    background-color: red;
+}
+
+.giallo{
+    background-color: yellow;
+}
+
+.verde{
+    background-color: green;
+}
+
+.quadrato{
+    border: 2px solid black;
+    margin: 100px auto;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border:2px solid blue;
+}
